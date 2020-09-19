@@ -1,0 +1,2 @@
+console.log("A. Trong lập trình những biến chỉ có 2 giá trị true or false được gọi là boolean.");
+console.log("B. - Có thể dùng hàm boolean để tạo ra boolean. \n - 1 phép so sánh cũng được gọi là boolean. \n - kết hợp các giá trị boolean với nhau để tạo ra boolean. \n");
