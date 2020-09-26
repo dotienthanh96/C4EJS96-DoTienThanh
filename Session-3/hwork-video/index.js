@@ -90,24 +90,23 @@ console.log("Một tuần có bao nhiêu ngày?");
 let day = ["1 ngày", "3 ngày", "5 ngày", "7 ngày"];
 for (let i = 0; i < day.length; i++) {
   console.log(i + 1 + "." + day[i]);
-}
-let b;
-b = Number(prompt("Chọn câu trả lời của bạn"));
+};
+
 while (true) {
+  let b = (prompt("Chọn câu trả lời của bạn"));
+
   if (b == 4) {
     alert("Hoan hô, bạn đã đúng");
     break;
   } else if (b == 1) {
     alert("Chúc bạn may mắn lần sau");
-    b = Number(prompt("Chọn câu trả lời của bạn"));
   } else if (b == 2) {
     alert("Chúc bạn may mắn lần sau");
-    b = Number(prompt("Chọn câu trả lời của bạn"));
   } else if (b == 3) {
     alert("Chúc bạn may mắn lần sau");
-    b = Number(prompt("Chọn câu trả lời của bạn"));
-  } else {
+  }
+  else if (b === null) {alert("good bye"); break}
+   else {
     alert("Lựa chọn không hợp lệ, câu trả lời phải là 1,2,3,4");
-    b = Number(prompt("Chọn câu trả lời của bạn"));
   }
 }

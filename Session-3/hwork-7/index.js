@@ -9,3 +9,8 @@ else if ( a==3) {alert(`${a} is FOUND in my array at index 3`);}
 else if ( a==4) {alert(`${a} is FOUND in my array at index 4`);}
 else {alert(`${a} is NOT found in my array`)} 
    
+let number = [9, 10 , 2 , 3 , 4 ];
+let a = prompt("Enter a number");
+for ( let i = 0; i<number.length; i++) {
+    
+}

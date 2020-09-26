@@ -8,14 +8,14 @@ console.log("Hello, my name is Phuong Nam and here is my sheep size:");
 for (let i = 0; i < size.length; i++) {
   console.log(size[i]);
 }
-// "8.2"
+// // "8.2"
 
 let max = Math.max.apply(Math, size);
 console.log(`Now my biggest sheep has size ${max}, let's have it`);
 // "8.3"
 size.splice(2, 1);
 console.log("after shearing, here is my flock");
-console.log(size);
+console.log(...size);
 
 // "8.4"
 
