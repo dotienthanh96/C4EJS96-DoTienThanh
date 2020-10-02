@@ -932,11 +932,11 @@
     };
     // 2.2
     console.log(jobData.hits)
-    //2.3
+    // //2.3
     console.log(jobData.hits[3]);
-    // 2. 4
+    // // 2. 4
     console.log(jobData.hits[0].jobTitle)
-    // 2.5
+    // // 2.5
     console.log(jobData.hits[0].benefits)
     //2.6
 

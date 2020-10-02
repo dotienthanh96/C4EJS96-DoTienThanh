@@ -1,0 +1,54 @@
+/* 1 */
+.div1{
+    background-color: wheat;
+    color: yellowgreen;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: bolder;
+  }
+/* 2 */
+a{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background:wheat;
+    color: yellowgreen;
+    text-decoration: none;
+    font-family: monospace;
+    line-height: 100px;
+    text-align: center;
+    
+  }
+  /* 3 */
+  #div1 {
+      background-image: url(https://i.ytimg.com/vi/SGxQAs9ULWY/maxresdefault.jpg) ;
+      background-size: contain;
+      width: 75px;
+      height: 75px;
+      background-repeat: no-repeat;
+  }
+  #div2{
+  background-image: url(https://gameworld.vn/wp-content/uploads/2019/03/dota-2-oracle-support-tot-nhat-meta-7-21.jpg);
+  background-size: contain;
+      height: 75px;
+    }
+  #div3 {
+      background-image: url(https://i.ytimg.com/vi/r07QEn35Vo8/maxresdefault.jpg);
+      background-size: contain;
+      width: 75px;
+      height: 75px;
+  }
+  #div4 {
+      background-image: url(https://znews-photo.zadn.vn/w660/Uploaded/kbd_bcvi/2019_11_23/5d828d976f24eb1a752053b5_thumb.jpg);
+      background-size: contain;
+      width: 400px;
+      height: 400px;
+      background-repeat: no-repeat;
+
+  }
+  #div5 {
+      background-image: url(https://genk.mediacdn.vn/2017/skyglow-007-1493367822296.jpg);
+      width: 400px;
+      height: 400px;
+  }

@@ -1,0 +1,44 @@
+/* selector hwork  */
+/* 1 */
+p {
+    color: red;
+}
+/* 2 */
+#cover {
+    color: #00FF00;
+}
+
+/* 3 */
+
+#font24 {
+    font-size: 24px;
+}
+/* 4 */
+.cover {
+    font-size: 3em;
+    background: wheat
+  }
+/* 5 */
+#div1 {
+    color: black;
+}
+#div2 {
+    color: blue;
+}
+/* 6 */
+nav a {
+    color: yellow;
+}
+/* 7 */
+ul li {
+    font-weight: bold;
+}
+/* 8 */
+
+.item > span {
+    font-size: 18px;
+}
+
+.item div {
+    font-style: italic;
+}

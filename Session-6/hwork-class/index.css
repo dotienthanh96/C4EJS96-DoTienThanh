@@ -1,0 +1,67 @@
+#header {
+    height: 1150px;;
+    width: 960px;
+    background-color: paleturquoise;
+    margin: 0 auto;
+}
+#title {
+    background-color: mediumaquamarine;
+    font-size: 30px;
+    text-align: center;
+    padding: 10px;
+    font-family: cursive;
+}
+#content {
+    height: 30px;
+    font-size: 25px;
+}
+.nhanvat {
+    width: 360px;
+    color: navy;
+    float: left;
+    background-color: paleturquoise;
+}
+.noidung {
+    width: 550px;
+    color: navy;
+    float: right;
+    background-color: paleturquoise;
+}
+.img {
+    height: auto;
+    width: 960px;
+    background-color: darkgray;
+    margin: auto;
+    text-align: center;
+}
+
+[src] {
+    height: 230px;
+    width: auto;
+    border-style: inset;
+    border-color: black;
+    border-width: 10px;
+}
+.h3 {
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#footer {
+    width: 960px;
+    height: 1200px;
+    background-color: pink;
+    margin: 0 auto;  
+    text-align: center; 
+    font-family: cursive;
+    font-size: 30px;
+
+
+}
+input {
+    height: 30px;
+    margin-top: 10px;
+}
+h4 {
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

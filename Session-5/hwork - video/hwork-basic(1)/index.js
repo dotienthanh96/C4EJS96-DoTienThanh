@@ -1,11 +1,11 @@
 console.log("Part1");
-//1.l
-let a = Math.random() * (1 - 0) ; console.log(a)
+// //1.l
+// let a = Math.random() * (1 - 0) ; console.log(a)
 
-//1.2
-let b = [2,5,6,9,10] ;
-let random = b[Math.floor(Math.random() * b.length)];
-console.log(random);
+// //1.2
+// let b = [2,5,6,9,10] ;
+// let random = b[Math.floor(Math.random() * b.length)];
+// console.log(random);
 //1.3
 let quest = [
     {
@@ -32,47 +32,47 @@ let quest = [
     }
 ];
 
-// 1.4 
-let rand = Math.floor(Math.random()*quest.length);
-let ask = Number(prompt(`${quest[rand].question}\n${quest[rand].choice}`));
-// 1.5
-if (quest[rand].rightChoice == ask) {
-    alert('Bravo!!!');
-} else {
-    alert('Good luck next time');
-}
-// 1.6
+// // 1.4 
+// let rand = Math.floor(Math.random()*quest.length);
+// let ask = Number(prompt(`${quest[rand].question}\n${quest[rand].choice}`));
+// // 1.5
+// if (quest[rand].rightChoice == ask) {
+//     alert('Bravo!!!');
+// } else {
+//     alert('Good luck next time');
+// }
+// // 1.6
 
-while (true) {
-    if (quest.length == 0) {
-        alert('We are out of question :(');
-        break;
-    };
-    let rand = Math.floor(Math.random()*quest.length);
-    let ask = Number(prompt(`${quest[rand].question}\n${quest[rand].choice}`));
-    if (ask == null || ask == undefined || ask != quest[rand].rightchoice) {
-        alert('Your anser wrong. Bye!');
-        break;
-    };
+// while (true) {
+//     if (quest.length == 0) {
+//         alert('We are out of question :(');
+//         break;
+//     };
+//     let rand = Math.floor(Math.random()*quest.length);
+//     let ask = Number(prompt(`${quest[rand].question}\n${quest[rand].choice}`));
+//     if (ask == null || ask == undefined || ask != quest[rand].rightchoice) {
+//         alert('Your anser wrong. Bye!');
+//         break;
+//     };
    
-    quest.splice(rand, 1);
-};
+//     quest.splice(rand, 1);
+// };
 
 // 1.7
-let count = 0 ;
-let sum = quest.length;
-while (true) {
-    if (quest.length == 0) {
-        alert('We are out of question :(');
-        break;
-    };
-    let rand = Math.floor(Math.random()*quest.length);
-    let ask = Number(prompt(`${quest[rand].question}\n${quest[rand].choice}`));
-    if ( ask == quest[rand].rightchoice) {
-        count++; }
-    quest.splice(rand, 1);
-};
-alert(`You answered correctly ${count} out of ${sum} questions`);
+// let count = 0 ;
+// let sum = quest.length;
+// while (true) {
+//     if (quest.length == 0) {
+//         alert('We are out of question :(');
+//         break;
+//     };
+//     let rand = Math.floor(Math.random()*quest.length);
+//     let ask = Number(prompt(`${quest[rand].question}\n${quest[rand].choice}`));
+//     if ( ask == quest[rand].rightchoice) {
+//         count++; }
+//     quest.splice(rand, 1);
+// };
+// alert(`You answered correctly ${count} out of ${sum} questions`);
 
 // 1.8
 

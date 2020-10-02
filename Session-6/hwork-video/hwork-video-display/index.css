@@ -1,0 +1,21 @@
+/* span{
+    background: red;
+   display: block;
+  } */
+  div{
+    background: blue;
+  }
+
+  #div1{
+    background: red;
+    display: block;
+  }
+
+  #span1{
+    background: red;
+  }
+  #span2{
+    background:yellow;
+    display: inline-block;
+    width: 500px;
+  }
