@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Page Title</title>
+    <link rel="stylesheet" href="./media/css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Danh sách sản phẩm</h1>
+      <ul class="tab">
+        <li class="tab-item active" onclick="changeProductList('showList',this)">Tất cả</li>
+        <li class="tab-item" onclick="changeProductList('new',this)">Mới nhất</li>
+        <li class="tab-item" onclick="changeProductList('trend',this)">Phổ biến</li>
+        <li class="tab-item" onclick="changeProductList('caretory',this)">Bolero</li>
+      </ul>
+      <div id="showList" class="showList"></div>
+      <div id="new" class="new"></div>
+      <div id="trend" class="trend"></div>
+      <div id="caretory" class="caretory"></div>
+    </div>
+    <script src="/C4EJS96-DoTienThanh/AdamStore/media/js/data.js"></script>
+    <script src="/C4EJS96-DoTienThanh/AdamStore/media/js/custom.js"></script>
+  </body>
+</html>
