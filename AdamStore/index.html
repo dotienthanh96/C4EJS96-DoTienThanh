@@ -7,33 +7,62 @@
     <link rel="stylesheet" href="./media/css/style.css" />
   </head>
   <body>
-    <div id="container">
+    <div id="container1">
       <div id="heading"></div>
       <div id="main">
         <div id="sidebar" class="maincontent">
-          <div class="sidebarMenu"></div>
-          <div class="sidebarFilter"></div>
-          <div class="sidebarSearh"></div>
+          <div class="sidebarMenu">
+            <h3>MENU</h3>
+            <ul>CD Nhạc Quốc Tế
+              <li>CD</li>
+              <li>Gold CD</li>
+              <li>SACD</li>
+            </ul>
+            <ul>CD Nhạc Việt Nam
+              <li>Nhạc Vàng</li>
+              <li>Nhạc Đỏ</li>
+              <li>Nhạc Trữ Tình</li>
+            </ul>
+            <ul>Xem theo thể loại nhạc
+              <li>Tổng hợp</li>
+              <li>Kèn</li>
+              <li>Trống và Bộ gõ</li>
+              <li>Piano</li>
+              <li>Guitar và Đàn Tranh</li>
+            </ul>
+          </div>
+          <div class="sidebarFilter">
+            <ul class="tab"> 
+              <h1>Danh sách sản phẩm</h1>
+              <li class="tab-item active" onclick="changeProductList('showList',this)">Tất cả</li>
+              <li class="tab-item" onclick="changeProductList('new',this)">Mới nhất</li>
+              <li class="tab-item" onclick="changeProductList('trend',this)">Phổ biến</li>
+              <li class="tab-item" onclick="changeProductList('caretory',this)">Bolero</li>
+            </ul>
+          </div>
+          <div class="sidebarSearh">
+            <h3>Hot Singer</h3>
+            <ul>
+              <li>Bằng Kiều</li>
+              <li>Duy Khánh</li>
+              <li>Bảo Yến</li>
+            </ul>
+            
+          </div>
         </div>
         <div id="product" class="maincontent">
-          <div id="showList"></div>
-        </div>
+          <div class="container">
+            
+           
+            <div id="showList" class="showList"></div>
+            <div id="new" class="new"></div>
+            <div id="trend" class="trend"></div>
+            <div id="caretory" class="caretory"></div>
+          </div>        </div>
       </div>
       <div id="footer"></div>
     </div>
-    <div class="container">
-      <h1>Danh sách sản phẩm</h1>
-      <ul class="tab">
-        <li class="tab-item active" onclick="changeProductList('showList',this)">Tất cả</li>
-        <li class="tab-item" onclick="changeProductList('new',this)">Mới nhất</li>
-        <li class="tab-item" onclick="changeProductList('trend',this)">Phổ biến</li>
-        <li class="tab-item" onclick="changeProductList('caretory',this)">Bolero</li>
-      </ul>
-      <div id="showList" class="showList"></div>
-      <div id="new" class="new"></div>
-      <div id="trend" class="trend"></div>
-      <div id="caretory" class="caretory"></div>
-    </div>
+    
     <script src="/C4EJS96-DoTienThanh/AdamStore/media/js/data.js"></script>
     <script src="/C4EJS96-DoTienThanh/AdamStore/media/js/custom.js"></script>
   </body>

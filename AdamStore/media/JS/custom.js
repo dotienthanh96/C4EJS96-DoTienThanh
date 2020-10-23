@@ -7,7 +7,6 @@ function soProduct(pic, name, des, price) {
       <div class="productPic"><img src="./media/img/${pic}" alt=""></div>
       <div class="productTit">
         <b>${name}</b> <br>
-        <span>Giới thiệu: ${des}</span>
       </div>
       <div class="productPrice">Giá: ${price}</div>
       <button class="addPro" onclick="duavaogiohang()">Add to cart</button>

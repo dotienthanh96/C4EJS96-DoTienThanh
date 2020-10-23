@@ -21,17 +21,19 @@
     width: 33%;
     padding: 15px;
 }
-.container h1 {
+.sidebarFilter h1 {
     text-transform: uppercase;
-    font-size: 30px;
+    font-size: 20px;
+    padding: 0;
+    margin: 0;
 }
-.container ul.tab {
+.sidebarFilter ul.tab {
     margin: 0;
     padding: 0;
     list-style-type: none;
-    display: flex;
+    display: block;
 }
-.container ul.tab li {
+.sidebarFilter ul.tab li {
     background-color: orangered;
     padding: 10px;
     color: mintcream;
@@ -39,16 +41,18 @@
     margin-right: 10px;
     width: 80px;
     text-align: center;
+    margin: 10px
 }
 
-.container ul.tab li.active {
+.sidebarFilter ul.tab li.active {
     background-color: navy;
+    
 }
 
 *{
     box-sizing: border-box;
 }
-#container {
+#container1 {
     width: 1000px;
     height: 2000px;
     padding: 0 auto;
@@ -63,36 +67,50 @@
     display: flex;
     width: 100%;
     height: 60%;
-    background-color: lawngreen;
+    /* background-color: lawngreen; */
 }
 #sidebar {
    width: 25%;
     height: 100%;
-    background-color: lavenderblush;
+    /* background-color: lavenderblush; */
 }
 .sidebarMenu {
     width: 100%;
     height: 33%;
-    background-color: lightsalmon;
+    /* background-color: lightsalmon; */
 }
 .sidebarFilter {
     width: 100%;
     height: 33%;
-    background-color: magenta;
+    /* background-color: magenta; */
+    display: block;
 }
 .sidebarSearh {
     width: 100%;
     height: 34%;
-    background-color: black
+    /* background-color: black */
 }
 #product {
-    background-color: darkgrey;
+    /* background-color: darkgrey; */
     width: 75%;
     height: 100%;
+    display: flex;
     
 }
 #footer {
     width: 100%;
     height: 20%;
     background-color: darkorchid;
+}
+
+.sidebarMenu h3 {
+    padding: 0%;
+    margin: 0%;
+}
+.sidebarMenu ul {
+    padding-left: 0px;
+    list-style: none;
+}
+.sidebarMenu ul li {
+    padding-left: 15px;
 }
